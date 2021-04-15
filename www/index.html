@@ -8,17 +8,61 @@
   <!-- Scripts -->
   <script src="components/loader.js"></script>
   <script src="lib/jquery-3.6.0.min.js"></script>
-  <script src="components/achao.js"></script>
+  <script src="components/acao.js"></script>
   <!-- Scripts -->
 
   <!-- Estilos -->
   <link rel="stylesheet" href="components/loader.css">
-  <link rel="stykesheet" href="lib/boostrap/css/boostrap.min.css">
+  <link rel="stykesheet" href="lib/bootstrap/css/bootstrap.min.css">
   <link rel="stylesheet" href="css/style.css">
   <!-- Estilos -->
 
 </head>
 <body>
-  Hello World
+<div class="container">
+      <div class="row">
+           <div class="col-sm-12">
+                  <div class="jumbotron">
+                       <h1>Calculadora</h1>
+                  </div>
+           </div>
+      </div>
+      <div class="row">
+           <div class="col-sm-12">
+                <div class="form-group">
+                     <label for "numero1">VALOR 1</label>
+                     <input type="number" name="valor1" id="valor1" step="0.01" class="form-control">
+                </div>
+           </div>
+      </div>
+       <div class="row">
+           <div class="col-sm-12">
+                <div class="form-group">
+                     <label for "numero2">VALOR 2</label>
+                     <input type="number" name="valor2" id="valor2" step="0.01" class="form-control">
+                </div>
+           </div>
+      </div>
+       <div class="row">
+           <div class="col-sm-12">
+                <div class="form-group">
+                    <button class="btn btn-secondary btn-block" id="somar">+</button>
+                    <button class="btn btn-secondary btn-block" id="subtrair">-</button>
+                    <button class="btn btn-secondary btn-block" id="multiplicar">x</button>
+                    <button class="btn btn-secondary btn-block" id="dividir">/</button>
+                </div>
+           </div>
+      </div>
+      <br>
+      <br>
+     <div class="row">
+           <div class="col-sm-12">
+                <div class="form-group">
+                     <label for "">RESULTADO </label>
+                     <input type="text"  id="resultado" class="form-control" readonly>
+                </div>
+           </div>
+      </div>
+</div>
 </body>
 </html>
